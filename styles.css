@@ -115,6 +115,9 @@ nav ul li a:hover{
     color: #FFF;
 }
 
+.second_banner_text{
+}
+
 
 
 .banner_text span{
@@ -197,6 +200,7 @@ nav ul li a:hover{
     height: 150px;
     width: 300px;
     gap: 5px;
+    padding: 7px;
 }
 
 
@@ -276,6 +280,8 @@ iframe{
     display: flex;
     height: 30px;
     width: 30px;
+    justify-content: center;
+    align-items: center;
 }
 .name_star p i{
     color: rgba(255, 255, 0, 0.94);
