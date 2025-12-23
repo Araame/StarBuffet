@@ -84,7 +84,7 @@ nav ul li a:hover{
 .second_banner{
     width: 600px ;
     height: 300px;
-    display: flex;
+    position: relative;
 }
 
 .second_banner_text p{
@@ -92,6 +92,9 @@ nav ul li a:hover{
     height: 25px;
     background-color: gainsboro;
     border-radius: 15px;
+    position: absolute;
+    top: 10px;
+    left: 420px;
 }
 
 .second_banner img{
@@ -113,9 +116,6 @@ nav ul li a:hover{
 
 .banner_text h1, .banner_text p{
     color: #FFF;
-}
-
-.second_banner_text{
 }
 
 
@@ -150,7 +150,7 @@ nav ul li a:hover{
     align-items: center;
     background-color: #FFF;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 5px 2px rgba(0,0,0);
+    box-shadow: 0px 0px 7px 2px rgb(95, 94, 94);
     width: 250px;
     height: 100px;
 }
@@ -203,11 +203,17 @@ nav ul li a:hover{
     padding: 7px;
 }
 
+.service_card a{
+    color: #d5a75d;
+}
+
 
 
 .yellow_card{
-    background-color: #d5a75d;
+    background-color: blanchedalmond;
 }
+
+
 
 /*Localisation section*/
 .localisation{
@@ -217,7 +223,7 @@ nav ul li a:hover{
     flex-direction: column;
     align-items: center;
     height: 500px;
-    justify-content: center; 
+    justify-content: space-around; 
     column-gap: 5px;
     background-color: rgb(204, 155, 82);
 }
@@ -257,7 +263,7 @@ iframe{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 5px 5px 2px black;
+    box-shadow: 0px 0px 7px 2px rgb(95, 94, 94);
 }
 
 .testimony_text{
@@ -283,7 +289,7 @@ iframe{
     justify-content: center;
     align-items: center;
 }
-.name_star p i{
+.name_star p i, .first_line p i{
     color: rgba(255, 255, 0, 0.94);
 }
 
@@ -339,6 +345,10 @@ iframe{
     text-align: center;
 }
 
+.cta_btn a{
+text-decoration: none;
+    color: #E65100;
+}
 
 /* Footer */
 
@@ -366,4 +376,232 @@ footer{
 
 .footer ul li{
     color: gray;
+}
+
+
+
+
+
+/* TRAITEURS PAGE */
+
+/* MAIN */
+.traiteur_main_content{
+    height: 50vh;
+    background: url("images/banner-caterers.jpg") center/cover ;
+    background-color: #E65100;
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 350px;
+}
+
+.traiteur_main_content h1, .traiteur_main_content p{
+    color: #FFF;
+}
+
+
+/* TRAITEURS SECTION */
+.traiteurs_section{
+    background-color: #FFF3E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1%;
+}
+
+.filters{
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 2%;
+    width: 80%;
+
+}
+
+
+.filter_btn{
+    width: 30%;
+    text-align: right;
+}
+
+.btn{
+    background-color: #E65100;
+    border: 0;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+}
+
+.btn1{
+    background-color: #E65100;
+    color: white;
+}
+
+.filter_btn .btn2{
+    background-color: white;
+}
+
+.filter select{
+    background-color: white;
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+}
+
+.filter p{
+    color: rgb(50, 49, 49);
+}
+
+
+.traiteurs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    width: 80%;
+    padding: 50px;
+}
+
+
+.traiteurs img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+
+
+.traiteur{
+    display: flex;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+
+.traiteur_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+    padding: 5px;
+}
+
+
+.first_line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_line h3 {
+    width: 500px;
+}
+
+.first_line h3 i {
+    font-size: 10px;
+}
+
+.specialite{
+    display: flex;
+    gap: 4px;
+}
+
+.specialite p{
+    background-color: gainsboro;
+    border-radius: 15px;
+    width: 80px;
+    text-align: center;
+}
+
+.last_line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last_line button{
+    background-color: black;
+    border: 0;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+/* CONTACT PAGE */
+.form_content{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    align-items: flex-end;
+    padding-bottom: 5%;
+    box-shadow: 0px 0px 7px 2px rgb(95, 94, 94);
+
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #FFF;
+    gap: 19px;
+    padding: 5% 15% 5% 0 ;
+}
+
+.form{
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+
+.basic_infos, .infos_contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.infos_pro{
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+
+
+.services_traiteur_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.services_traiteur_1{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.services_traiteur_2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.traiteur_card{
+    box-shadow: 0px 0px 3px 2px rgb(95, 94, 94);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input #file-upload-button{
+    background-color: #d5a75d;
+    color: #E65100;
+    text-align: center;
 }

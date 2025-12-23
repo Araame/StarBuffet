@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo StarBuffet">
+        </div>
+
+
+        <nav>
+            <ul>            
+                <li><a href="#Accueil">Accueil</a></li>
+                <li><a href="#Restaurants">Restaurants</a></li>
+                <li><a href="#CoursDeCuisine">Cours de Cuisine</a></li>
+                <li><a href="traiteurs.html">Traiteurs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="sign">
+            <button class="signin">Connexion</button>
+            <button class="signup">Inscription</button>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="traiteur_main_content">
+        <h1>Devenir Traiteur</h1>
+        <p>Rejoignez notre plateforme et augmentez vos activités de traiteur.</p>
+        </div>
+    </main>
+
+
+    <section class="form_content">
+    <div class="content">
+        <div class="form">
+            <div class="traiteur_card">
+                <p><strong>Informaions de base</strong></p>
+                <div class="basic_infos">
+                    <div>
+                        <label for="nom">Nom</label><br>
+                        <input type="text">
+                    </div>
+
+                    <div>
+                        <label for="mot_de_passe">Mot de passe</label>
+                        <input type="text">
+                    </div>
+                
+                    <div>
+                        <label for="mail">Email</label><br>
+                        <input type="email">
+                    </div>
+                    <div>
+                        <label for="confirm_mot_de_passe">Confirmation de mot de passe</label><br>
+                        <input type="text">
+                    </div>
+                </div>
+            </div>
+
+            <div class="infos_pro  traiteur_card">
+                <p><strong>Informations professionnelles</strong></p>
+                <label for="categorie">Catégorie</label>
+                <select name="categorie" id="categorie">
+                    <option value="default">Sélectionnez une catégorie</option>
+                </select>
+                <label for="annee_xp">Années d'expérience</label>
+                <input type="text">
+                <label for="description">Description</label>
+                <textarea name="description" id="description"></textarea>
+                <p>Services proposés</p>
+            <div class="services_traiteur_content">
+                <div class="services_traiteur_1">
+                    <label for="mariage"><input type="checkbox" name="pro_events">Evènements d'entreprise</label>            
+                    <label for="pro_events">Evènements d'entreprises</label>
+                    <label for="buffet"><input type="checkbox" name="buffet">Buffets</label>
+                    <label for="sur_mesure"><input type="checkbox" name="sur_mesure">Cuisine sur Mesure</label>
+                </div>
+                <div class="services_traiteur_2">
+                    <label for="anniversaire"><input type="checkbox" name="anniversaire">Anniversaires</label>
+                    <label for="cocktail"><input type="checkbox" name="cocktail">Cocktails</label>
+                    <label for="diner"><input type="checkbox" name="diner">Diner</label>
+                </div>
+                </div>
+            </div>
+
+            <div class=" traiteur_card">
+                <p><strong>Informations de contact</strong></p>
+                <div class="infos_contact">
+                    <div>
+                        <label for="telephone">Télèphone</label>
+                        <input type="tel">
+                </div>
+                <div>
+                    <label for="Adresse">Adresse</label>
+                    <input type="text">
+                </div>
+            </div>
+
+            <div class="profile ">
+                <label for="photo">Photo</label>
+                <div class="photo">
+                    <input class="file_btn" type="file" name="photo">
+                </div>
+                <p>Formats acceptés : JPG, JPEG; PNG. Taille maximale : 10 MB</p>
+            </div>
+        </div>
+        <div class="submit_btn ">
+            <input class="btn btn1" type="submit" value="S'inscrire">
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="about_us">
+                <p>A propos</p><br>
+                <ul>
+                    <li>Qui sommes-nous</li>
+                    <li>Contact</li>
+                    <li>Mentions légales</li>
+                    <li>Politique de confidentialité</li>
+                </ul>
+            </div>
+            <div class="services_footer">
+                <p>Services</p><br>
+                <ul>
+                    <li>Traiteurs</li>
+                    <li>Restaurants</li>
+                    <li>Cours de Cuisine</li>
+                </ul>
+            </div>
+            <div class="pro_space">
+                <p>Espace Pro</p><br>
+                <ul>
+                    <li>Devenez partenaire</li>
+                    <li>Connexion</li>
+                    <li>FAQ Professionels</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <p>Contact</p><br>
+                <ul>
+                    <li>StarBuffet</li>
+                    <li>Dakar Senegal</li>
+                    <li>Tel: +221 77 000 00 00</li>
+                    <li>Email : contact@starbuff.com</li>
+                    <li><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-solid fa-instagram"></i></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy;2025 StarBuffet. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
