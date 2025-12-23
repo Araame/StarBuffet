@@ -36,6 +36,7 @@ nav ul{
     gap: 35px;
 }
 
+
 nav ul li, .footer ul li{
     list-style: none;
 }
@@ -45,9 +46,11 @@ nav ul li a{
     color: gray;
 }
 
-nav ul li a:hover{
-    color: #E65100;
-    text-decoration: underline solid #E65100 ;
+nav ul li a:hover, nav ul li a:focus {
+    color: #FFF;
+    background-color: #E65100;
+    border-radius: 10px;
+
 }
 
 .sign button{
@@ -55,14 +58,13 @@ nav ul li a:hover{
     height: 50px;
 }
 
-.sign .signin{
+.sign .signin, .sign .signup{
     background-color: transparent;
     border: 0;
     color: gray;
-
 }
 
-.sign .signup{
+.sign button:hover{
     background-color: #E65100;
     color: #FFF;
     border: 0;
@@ -539,7 +541,7 @@ footer{
     padding-top: 5%;
     align-items: flex-end;
     padding-bottom: 5%;
-    box-shadow: 0px 0px 7px 2px rgb(95, 94, 94);
+    box-shadow: 2px 2px 2px 2px rgba(90, 88, 88, 0.029);
 
 
 }
@@ -548,6 +550,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: center;
     background-color: #FFF;
     gap: 19px;
     padding: 5% 15% 5% 0 ;
@@ -561,6 +564,15 @@ footer{
     gap: 20px;
     justify-content: space-between;
     
+}
+
+
+.form input, textarea, #categorie select{
+    border-radius: 5px;
+}
+
+.form input:focus, textarea:focus{
+    background-color: lightskyblue;
 }
 
 .basic_infos, .infos_contact{
@@ -595,13 +607,27 @@ footer{
 
 
 .traiteur_card{
-    box-shadow: 0px 0px 3px 2px rgb(95, 94, 94);
     padding: 10px;
     border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(90, 88, 88, 0.029);
 }
 
-input #file-upload-button{
-    background-color: #d5a75d;
+.submit_btn .btn {
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.submit_btn .btn:hover {
+    cursor: pointer;
+    transform: rotate(5deg) scale(1.1);
+}
+
+.photo button{
+    background-color: hsl(37, 59%, 60%);
     color: #E65100;
     text-align: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    width: 150px;
 }
