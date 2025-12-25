@@ -631,3 +631,57 @@ footer{
     border-radius: 5px;
     width: 150px;
 }
+
+
+/*DETAILS PAGE*/
+
+.detail_main{
+    background-color: #f5f5dc;
+    padding: 2%;
+}   
+
+
+.banner{
+    background: url("images/traiteur1_pic.webp") center/cover;
+    border-radius: 10px;
+    position: relative;
+    height: 40vh;
+}
+
+.badge{
+    position: absolute;
+    bottom: 10px;
+    left: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.detail_card{
+    background-color: #FFF;
+    box-shadow: 2px 2px 2px 1px rgba(90, 88, 88, 0.029);
+    padding: 4%;
+    border-radius: 10px;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2%;
+    margin-top: 20px;
+    height: 50%;
+}
+
+.details_content_1{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    height: 48%;
+}
+
+.detail_content_2{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    height: 48%;
+}

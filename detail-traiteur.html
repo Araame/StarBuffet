@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Traiteurs</title>
+    <title>Détails</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -35,97 +35,66 @@
       </div>
     </header>
 
-    <main>
-      <div class="traiteur_main_content">
-        <h1>Nos Traiteurs</h1>
-        <p>
-          Découvrez nos traiteurs professionnels pour vos évènements, mariages,
-          baptemes et <br />
-          réceptions.
-        </p>
-      </div>
-    </main>
-
-    <section class="traiteurs_section">
-      <div class="filters">
-        <h2>Filtres</h2>
-        <div class="filter">
-          <p>Spécialité</p>
-          <select name="specialite" id="specialite">
-            <option value="Toutes les spécialités">
-              Toutes les spécialités
-            </option>
-          </select>
+    <main class="detail_main">
+      <section class="banner">
+          <div class="badge">
+            <p>0.0/5</p>
+            <p>Vérifié</p>
+          </div>
         </div>
+      </section>
 
-        <div class="filter">
-          <p>Statut</p>
-          <select name="statut" id="statut">
-            <option value="Statut">Statut</option>
-          </select>
-        </div>
-
-        <div class="filter_btn">
-          <button class="btn btn1">
-            <i class="fa-solid fa-filter"></i> Filtrer
-          </button>
-          <button class="btn btn2">
-            <i class="fa-solid fa-rotate-right"></i>Réinitialiser
-          </button>
-        </div>
-      </div>
-
-      <div class="traiteurs">
-        <div class="traiteur">
-          <img src="images/traiteur1_pic.webp" alt="salade de légumes" />
-          <div class="traiteur_content">
-            <div class="first_line">
-              <h3><i class="fa-solid fa-circle"></i>1979 ans d'expérience</h3>
-              <p><i class="fa-solid fa-star"></i>0.0</p>
-            </div>
+      <section class="details">
+        <div class="details_content_1">
+          <div class="about detail_card">
+            <h2>A propos</h2>
             <p>Nam ex nulla similiq</p>
-            <p><strong>Spécialités :</strong></p>
+          </div>
+          <div class="specialite_detail detail_card">
+            <h2>Spécialités</h2>
             <div class="specialite">
               <p>Française</p>
               <p>Indienne</p>
             </div>
-
-            <div class="last_line">
-              <p>+ 1 (684) 758-7777</p>
-              <button class="see_profile"><a href="detail-traiteur.html">Voir le profil</a></button>
+          </div>
+          <div class="services_detail detail_card">
+            <div class="traiteur_detail1">
+              <ul>
+                <li>Mariage</li>
+                <li>Cocktails</li>
+              </ul>
+            </div>
+            <div class="traiteur_detail2">
+              <ul>
+                <li>Anniversaire</li>
+                <li>Cuisine sur mesure</li>
+              </ul>
             </div>
           </div>
         </div>
+        <div class="detail_content_2">
+          <div class="contact_detail detail_card">
+            <p>Minima eum aliquip a</p>
+            <a href="tel:+1(684) 758-7777">+1(684) 758-7777</a>
+            <a href="mailto:dss@ds.ds">dss@ds.ds</a>
+          </div>
 
-        <div class="traiteur">
-          <img src="images/traiteur2_pic.webp" alt="sushi" />
-          <div class="traiteur_content">
-            <div class="first_line">
-              <h3><i class="fa-solid fa-circle"></i>2016 ans d'expérience</h3>
-              <p><i class="fa-solid fa-star"></i>0.0</p>
-            </div>
-            <p>Perspiciatis quia a</p>
-            <p><strong>Spécialités :</strong></p>
+          <div class="xp_detail detail_card">
+            <p>1979 ans d'expérience</p>
+          </div>
+          <div class="langues detail_card">
             <div class="specialite">
-              <p>Japonaise</p>
-            </div>
-
-            <div class="last_line">
-              <p>+ 1 (481) 253-6005</p>
-              <button class="see_profile"><a href="detail-traiteur.html">Voir le profil</a></button>
+              <p>Français</p>
+              <p>Italien</p>
+              <p>Arabe</p>
             </div>
           </div>
+          <div class="detail_card">
+                <button class="detail_card">Contacter</button>
+            </div>
         </div>
-      </div>
-    </section>
-
-    <section class="cta">
-      <h2><strong>Vous êtes traiteur?</strong></h2>
-      <p>Rejoignez notre réseau et développez votre activité évènementielle!</p>
-      <button class="cta_btn">
-        <a href="contact.html">Devenir traiteur !</a>
-      </button>
-    </section>
+      </section>
+    </main>
 
     <footer>
       <div class="footer">
