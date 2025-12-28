@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard StarBuffet</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="dashboard_page">
+      <div class="dashboard">
+        <nav>
+          <img src="images/logo.png" alt="logo StarBuffet" />
+
+          <ul>
+            <li><a href="#">Tableau de bord</a></li>
+            <li><a href="#">Cours de cuisine</a></li>
+            <li><a href="#">Catégories</a></li>
+            <li><a href="#">Restaurants</a></li>
+            <li><a href="#">Traiteurs</a></li>
+            <li><a href="#">Avis</a></li>
+          </ul>
+        </nav>
+
+        <div class="dash_bottom">
+          <ul>
+            <hr />
+            <li><a href="#">Retour à l'accueil</a></li>
+            <hr />
+            <li><a href="#">Déconnexion</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="dashboard_main_content">
+        <div class="dash_main_header dash_card">
+          <div class="header_text">
+            <h1>Restaurants</h1>
+          </div>
+          <div class="header_btn">
+            <p>Gérez les restaurants de la plateforme</p>
+
+            <button class="add_resto_btn">Ajouter un restaurant</button>
+          </div>
+        </div>
+        <div class="search_bar dash_card">
+          <p>Zone</p>
+          <div class="filter_section">
+            <select>
+              <option value="all_areas">Toutes les zones</option>
+            </select>
+            <button class="btn btn1">
+              <i class="fa-solid fa-filter"></i> Filtrer
+            </button>
+          </div>
+        </div>
+        <table class="dash_card">
+          <tr>
+            <th class="resto_name">
+              Nom
+            </th>
+            <th class="resto_email">
+              Email
+            </th>
+            <th class="zone">
+              Zone
+            </th>
+            <th class="status">
+              Statut
+            </th>
+            <th class="actions">
+              Actions
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <img src="images/logo.png" alt="logo" />
+              Le Djoloff
+            </td>
+            <td>
+              contact@ledjoloff.sn
+            </td>
+            <td>
+              Plateau
+            </td>
+            <td>
+              <p class="status_btn pending_btn">En attente</p>
+            </td>
+            <td>
+              <button class="edit_btn">Modifier</button>
+              <button class="delete_btn">Supprimer</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="" alt="logo" />
+              Chez Loutcha
+            </td>
+            <td>
+              contact@chezloutcha.sn
+            </td>
+            <td>
+              Plateau
+            </td>
+            <td>
+              <p class="status_btn pending_btn">En attente</p>
+            </td>
+            <td>
+              <button class="edit_btn">Modifier</button>
+              <button class="delete_btn">Supprimer</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="" alt="logo" />
+              Le Thiossane
+            </td>
+            <td>
+              contact@lethiossane.sn
+            </td>
+            <td>
+              Medina
+            </td>
+            <td>
+              <p class="status_btn verified_btn">Vérifié</p>
+            </td>
+            <td>
+              <button class="edit_btn">Modifier</button>
+              <button class="delete_btn">Supprimer</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="" alt="logo" />
+              Sushi Bar
+            </td>
+            <td>
+              contact@sushibar.sn
+            </td>
+            <td>
+              Almadies
+            </td>
+            <td>
+              <p class="status_btn verified_btn">Vérifié</p>
+            </td>
+            <td>
+              <button class="edit_btn">Modifier</button>
+              <button class="delete_btn">Supprimer</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="" alt="logo" />
+              Amanda Larson
+            </td>
+            <td>
+              contact@mailinator.sn
+            </td>
+            <td>
+              Aut dignissimos iure
+            </td>
+            <td>
+              <p class="status_btn pending_btn">En attente</p>
+            </td>
+            <td>
+              <button class="edit_btn">Modifier</button>
+              <button class="delete_btn">Supprimer</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="" alt="logo" />
+              Mara Knight
+            </td>
+            <td>
+              contact@mailinator.sn
+            </td>
+            <td>
+              Possimus quis moles
+            </td>
+            <td>
+              <p class="status_btn pending_btn">En attente</p>
+            </td>
+            <td>
+              <button class="edit_btn">Modifier</button>
+              <button class="delete_btn">Supprimer</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="" alt="logo" />
+              Joan Salinas
+            </td>
+            <td>
+              contact@mailinator.sn
+            </td>
+            <td>
+              Amet voluptatem ips
+            </td>
+            <td>
+              <p class="status_btn pending_btn">En attente</p>
+            </td>
+            <td>
+              <button class="edit_btn">Modifier</button>
+              <button class="delete_btn">Supprimer</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img src="" alt="logo" />
+              Serena Thomton
+            </td>
+            <td>
+              contact@mailinator.sn
+            </td>
+            <td>
+              Reprehenderit colupt
+            </td>
+            <td>
+              <p class="status_btn pending_btn">En attente</p>
+            </td>
+            <td>
+              <button class="edit_btn">Modifier</button>
+              <button class="delete_btn">Supprimer</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>

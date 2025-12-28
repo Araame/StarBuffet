@@ -830,3 +830,160 @@ form h1 {
     padding-top: 20px;
     cursor: pointer;
 }
+
+
+
+/* DASHBOARD PAGE */
+
+.dashboard_page{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+    background-color: rgb(247, 243, 243);
+}
+
+.dashboard{
+    background-color: #E65100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 80%;
+}
+
+.dashboard img{
+   width: 70%;
+}
+
+.dashboard nav ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.dash_bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    height: 15%;
+    padding-bottom: 20px;
+}
+
+.dash_bottom ul li{
+    padding-bottom: 20px;
+}
+
+.dashboard ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.dashboard_main_content{
+    margin: 3%;
+}
+
+
+
+.header_btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash_resto_card{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.search_bar{
+    background-color: #FFF;
+}
+
+
+
+table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    border-spacing: 4px;
+}
+
+
+th{
+    background-color: rgb(247, 243, 243);
+}
+
+
+
+.resto_name{
+    width: 20%;
+}
+
+.resto_email{
+    width: 8%;
+}
+
+.zone{
+    width: 15%;
+}
+
+.status{
+    width: 10%;
+}
+
+.actions{
+    width: 20%;
+}
+
+td{
+background-color: #FFF;
+border-radius: 7px;
+}
+
+.table_btn{
+    width: 20%;
+}
+
+.dash_card{
+    box-shadow: 2px 2px 2px 1px rgba(90, 88, 88, 0.029);
+    border-radius: 7px;
+}
+
+
+.status_btn{
+    border-radius: 5px;
+}
+
+.pending_btn{
+    background-color: rgb(236, 233, 105);
+    color: brown;
+    font-weight: bold;
+}
+
+.verified_btn{
+    background-color: greenyellow;
+    color: green;
+    font-weight: bold;
+}
+
+td img{
+    width: 45px;
+    border-radius: 50%;
+}
+
+
+.edit_btn{
+    color: blue;
+    font-weight: bold;
+    background-color: transparent;
+    border: 0;
+}
+
+
+.delete_btn{
+    color: red;
+    font-weight: bold;
+    background-color: transparent;
+    border: 0;
+}
