@@ -879,7 +879,7 @@ form h1 {
 }
 
 .dashboard_main_content{
-    margin: 3%;
+    margin: 1%;
 }
 
 
@@ -887,6 +887,12 @@ form h1 {
 .header_btn{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.add_resto_btn{
+    color: white;
+    width: 20%;
 }
 
 .dash_resto_card{
@@ -897,17 +903,28 @@ form h1 {
 
 .search_bar{
     background-color: #FFF;
+    padding: 2%;
+
 }
 
+.filter_section {
+    display: flex;
+    justify-content: space-between;
+}
 
+.filter_section select{
+    width: 80%;
+    border-radius: 5px;
+}
 
 table{
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    border-spacing: 4px;
+    border-spacing: 0;
 }
+
 
 
 th{
@@ -938,12 +955,13 @@ th{
 
 td{
 background-color: #FFF;
-border-radius: 7px;
+height: 15% ;
 }
 
 .table_btn{
     width: 20%;
 }
+
 
 .dash_card{
     box-shadow: 2px 2px 2px 1px rgba(90, 88, 88, 0.029);
